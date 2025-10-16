@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "pulseway": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/ABSOLUTE/PATH/TO/pulseway-mcp-server",
+        "run",
+        "pulseway-mcp-server"
+      ],
+      "env": {
+        "PULSEWAY_SERVER_URL": "https://your-instance.pulseway.com",
+        "PULSEWAY_TOKEN_ID": "your_token_id_here",
+        "PULSEWAY_TOKEN_SECRET": "your_token_secret_here"
+      }
+    }
+  }
+}
